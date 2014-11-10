@@ -1,4 +1,4 @@
 vSphere-Graphite
 ================
 
-Pushes vSphere stats to Graphite
+A PowerShell script that pushes vSphere stats to Graphite.
