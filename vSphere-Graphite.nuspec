@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>vSphereGraphite</id>
+    <title>vSphere-Graphite</title>
+    <version>1.0.0</version>
+    <authors>IanC</authors>
+    <owners>IanC</owners>
+    <licenseUrl>https://github.com/Ian2020/vSphere-Graphite/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Ian2020/vSphere-Graphite</projectUrl>
+    <summary>Pushes vSphere statistics to Graphite.</summary>
+    <description>Queries vSphere for stats and sneds them onto a Graphite instance.</description>
+    <tags>vSphere Graphite</tags>
+    <copyright></copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies />
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
